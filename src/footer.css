@@ -1,0 +1,60 @@
+.footer{
+    position:fixed;
+    bottom:0;
+    display:flex;
+    justify-content:space-between;
+    height:63px;
+    width:97.5%;
+    background-color:rgb(49, 45, 45);
+    padding: 20px;
+}
+
+.footer_left{
+    flex: 0.3;
+    display:flex;
+    align-items:center;
+    color:white;
+    width: 300px;
+
+}
+.footer-green{
+    color: rgb(23, 196, 23);
+}
+
+.footer-icon:hover,
+
+.footer-green:hover{
+   transition: transform 0.2s ease-in-out;
+   transform: scale(1.4);
+}
+
+.footer_songInfo > h4{
+ margin-bottom: 5px;
+}
+
+.footer_songInfo > p{
+    font-size: 12px;
+}
+
+
+.footer_center{
+    flex:0.7;
+    padding: 0 100px;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+.footer_right{
+    flex:0.3;
+    color:white;
+}
+
+.footer_logo{
+    height:60px;
+    width:60px;
+    margin-right:20px;
+    object-fit:contain;
+}

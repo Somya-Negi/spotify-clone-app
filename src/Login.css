@@ -1,0 +1,22 @@
+.login{
+    display:grid;
+    place-items:center;
+    height: 100vh;
+    background-color: black;
+}
+
+img{
+    width:70%;
+    height:300px;
+
+}
+
+a{
+    padding: 20px;
+    background-color: rgb(86, 203, 86);
+    border-radius: 99px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
